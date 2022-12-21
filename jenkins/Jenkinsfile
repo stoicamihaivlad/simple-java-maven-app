@@ -21,15 +21,5 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('inComplete') {
-            steps {
-                echo 'inComplete'
-            }
-        }
-        stage('newStage') {
-            steps {
-                echo 'newStage'
-            }
-        }
     }
 }
